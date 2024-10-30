@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Graph RAG信息检索系统</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    快速部署，简单操作，精度高的AI检索系统!
     <br />
     <a href="https://github.com/qiulongquan/graph_rag"><strong>Explore the docs »</strong></a>
     <br />
@@ -133,6 +133,8 @@ https://www.youtube.com/watch?v=ZNxmLOS2eo4
 Graph RAG检索系统添加代码解析检索功能，可以让新手小白快速了解复杂代码逻辑  
 https://www.youtube.com/watch?v=pLT56NQ8hmM
 
+graph rag系统部署以及neo4j图数据库安装说明  
+https://www.youtube.com/watch?v=--w2d9pe1dg
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -143,7 +145,6 @@ os.environ['ANTHROPIC_API_KEY'] = "sk-XXXXXX"
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * 安装本地Neo4j 采用docker方式 执行下面的命令 (命令中的 123456abc 是初始密码可以自由调整但是程序中的登陆密码也需要相同设定)
   ```sh
   docker run -p 7474:7474 -p 7687:7687 -d  -e NEO4J_AUTH=neo4j/123456abc  -v $PWD/data_neo4j:/data -v $PWD/plugins:/plugins --name neo4j-apoc -e NEO4J_apoc_export_file_enabled=true -e NEO4J_apoc_import_file_enabled=true -e NEO4J_apoc_import_file_use__neo4j__config=true -e NEO4J_PLUGINS=\[\"apoc\"\]  -e NEO4J_dbms_security_procedures_unrestricted=apoc.*  neo4j:latest
@@ -200,6 +201,7 @@ _github下载本程序所有代码并启动程序._
 _如果你需要查询自定义的文件内容，需要先选择【提交文件及数据处理】然后把自定义文件上传并处理存储到图数据库中，然后就可以进行查询了。_
 
 #### 关于部署我制作了详细的说明视频，可以查看下面链接。
+<a href="https://www.youtube.com/watch?v=--w2d9pe1dg">部署讲解视频</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
