@@ -42,7 +42,7 @@
     <a href="https://github.com/qiulongquan/graph_rag"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/qiulongquan/graph_rag">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=qXB7xpNiLc0">View Demo</a>
     ·
     <a href="https://github.com/qiulongquan/graph_rag/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -106,7 +106,7 @@
 
 
 
-### Built With
+## Built With
 
 下面是程序中用到的python库或者开发框架
 
@@ -122,6 +122,16 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 产品介绍视频
+Graph RAG检索系统进阶介绍，超过传统RAG检索系统  
+https://www.youtube.com/watch?v=zh6gqaMkdNs
+
+Graph RAG添加上下文检索流式输出图片检索输出功能，快速落地提高商用价值  
+https://www.youtube.com/watch?v=ZNxmLOS2eo4
+
+Graph RAG检索系统添加代码解析检索功能，可以让新手小白快速了解复杂代码逻辑  
+https://www.youtube.com/watch?v=pLT56NQ8hmM
 
 
 <!-- GETTING STARTED -->
@@ -178,9 +188,18 @@ _github下载本程序所有代码并启动程序._
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. 启动程序后，浏览器输入http://127.0.0.1:7860/将可以看到下面的页面
+[![Product Name Screen Shot][product-screenshot4]](https://github.com/qiulongquan/graph_rag)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. 输入想要查询的问题，点击【提交请求】按钮。
+![alt text](image.png)
+
+3. 等待10秒左右就会开始在在屏幕上面流式输出答案。这很棒，非常简单！
+![alt text](image-1.png)
+
+_如果你需要查询自定义的文件内容，需要先选择【提交文件及数据处理】然后把自定义文件上传并处理存储到图数据库中，然后就可以进行查询了。_
+
+#### 关于部署我制作了详细的说明视频，可以查看下面链接。
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,13 +208,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] 提高处理速度并行处理
+- [x] 可以处理txt excel pdf word ppt 这样的文件
+- [x] 实现流式输出
+- [x] 相关检索内容图片信息输出
+- [x] 上下文综合检索回答能力
+
+如果有bug或者需要进一步深度开发请发布issue或者发邮件联系我
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
